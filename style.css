@@ -1,0 +1,43 @@
+.main-container{
+    /* padding: 20px; */
+    margin: 10px 0;
+    color: rgb(92, 132, 241);
+    /* background-color: rgb(189, 202, 236); */
+}
+
+
+.main-logo{
+    width: 40px;
+}
+
+.main-heading{
+    /* display: inline; */
+    font-size: 30px;
+    font-weight: bolder;
+}
+.seprator{
+    border-right: 1px solid black;
+}
+
+.addon-color{
+    background-color: rgb(92, 132, 241);
+    color: aliceblue;
+    font-weight: bolder;
+    border-color: rgb(92, 132, 241);
+
+}
+
+.addon-color:hover{
+    background-color: rgb(32, 88, 243);
+}
+
+.input-field{
+    border-color: rgb(92, 132, 241);
+}
+.input-field:focus{
+    color: rgb(92, 132, 241);
+}
+
+.input-field::placeholder{
+    color: rgb(92, 132, 241);
+}
