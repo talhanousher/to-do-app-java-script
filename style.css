@@ -36,8 +36,21 @@
 }
 .input-field:focus{
     color: rgb(92, 132, 241);
+    border-color: rgb(92, 132, 241);   
+    
 }
 
-.input-field::placeholder{
+.input-field::placeholder,.details::placeholder{
     color: rgb(92, 132, 241);
+}
+
+.details{
+    resize: none;
+    color: rgb(92, 132, 241);    
+    border-color: rgb(92, 132, 241);   
+    padding: 10px;
+    border-radius: 4px; 
+}
+.details:focus{
+    box-shadow: 0 0 4px 4px #BFDEFF;
 }

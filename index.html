@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Todo App</title>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -29,12 +30,17 @@
                         <span class="input-group-text addon-color">Add Todo</span>
                     </div>
                 </div>
+                <div class="details-container">
+                    <textarea name="" id="" cols="71" rows="5" class="details" placeholder="Todo Details Here..."></textarea>
+                </div> 
+                <div id="todoList"></div>
             </div>
             <div class="col-6">
                 <div class="main-container">
                     <img src="Images/contract.svg" alt="logo" class="main-logo">
                     <span class="main-heading">Your Todos Here</span>
                 </div>
+                <div id="todoCards"></div>
             </div>
         </div>
     </div>
