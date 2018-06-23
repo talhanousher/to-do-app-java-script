@@ -1,5 +1,14 @@
+body{
+    background-color: rgb(92, 132, 241);
+}
+.container-style{
+    background-color: white;
+    padding: 20px;
+    height: 100vh;
+}
 .main-container{
     /* padding: 20px; */
+    text-align: center;
     margin: 10px 0;
     color: rgb(92, 132, 241);
     /* background-color: rgb(189, 202, 236); */
@@ -16,7 +25,7 @@
     font-weight: bolder;
 }
 .seprator{
-    border-right: 1px solid black;
+    border-right: 1px solid rgb(92, 132, 241);
 }
 
 .addon-color{
@@ -36,10 +45,8 @@
 }
 .input-field:focus{
     color: rgb(92, 132, 241);
-    border-color: rgb(92, 132, 241);   
-    
+    border-color: rgb(92, 132, 241);       
 }
-
 .input-field::placeholder,.details::placeholder{
     color: rgb(92, 132, 241);
 }
@@ -53,4 +60,8 @@
 }
 .details:focus{
     box-shadow: 0 0 4px 4px #BFDEFF;
+}
+
+.button-icon{
+    width: 20px;
 }
