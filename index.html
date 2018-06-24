@@ -18,6 +18,8 @@
             <img src="Images/to-do.svg" alt="logo" class="main-logo">
             <span class="main-heading">Todo App</span>
         </div>
+        <div class="alert alert-danger" role="alert" id="alert">
+        </div>
         <div class="row">
             <div class="col-6 seprator">
                 <div class="main-container">
@@ -25,15 +27,19 @@
                     <span class="main-heading">Add Todo</span>
                 </div>
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control input-field" placeholder="Type Todo Here...." aria-label="Username" aria-describedby="basic-addon1">
-                    <div class="input-group-postpend">
-                        <span class="input-group-text addon-color"> <img src="Images/plus.svg" alt="" class="button-icon"> Add Todo</span>
+                    <input type="text" id="todoTitle" class="form-control input-field" placeholder="Type Todo Here...." aria-label="Username"
+                        aria-describedby="basic-addon1">
+                    <div class="input-group-postpend pointer" onCLick="addTodo()">
+                        <span class="input-group-text addon-color">
+                            <img src="Images/plus.svg" alt="" class="button-icon"> Add Todo</span>
                     </div>
                 </div>
                 <div class="details-container">
-                    <textarea name="" id="" cols="71" rows="5" class="details" placeholder="Todo Details Here..."></textarea>
-                </div> 
-                <div id="todoList"></div>
+                    <textarea name="" id="todoDetails" cols="71" rows="5" class="details" placeholder="Todo Details Here..."></textarea>
+                </div>
+                <div id="todoList">
+                    <small id="todoListTitle">Todos List</small>
+                </div>
             </div>
             <div class="col-6">
                 <div class="main-container">
@@ -45,6 +51,7 @@
         </div>
     </div>
 
+    <script src="app.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

@@ -1,12 +1,14 @@
-body{
+body {
     background-color: rgb(92, 132, 241);
 }
-.container-style{
+
+.container-style {
     background-color: white;
     padding: 20px;
     height: 100vh;
 }
-.main-container{
+
+.main-container {
     /* padding: 20px; */
     text-align: center;
     margin: 10px 0;
@@ -14,54 +16,61 @@ body{
     /* background-color: rgb(189, 202, 236); */
 }
 
-
-.main-logo{
+.main-logo {
     width: 40px;
 }
 
-.main-heading{
+.main-heading {
     /* display: inline; */
     font-size: 30px;
     font-weight: bolder;
 }
-.seprator{
+
+.seprator {
     border-right: 1px solid rgb(92, 132, 241);
 }
 
-.addon-color{
+.addon-color {
     background-color: rgb(92, 132, 241);
     color: aliceblue;
     font-weight: bolder;
     border-color: rgb(92, 132, 241);
-
 }
 
-.addon-color:hover{
+.addon-color:hover {
     background-color: rgb(32, 88, 243);
 }
 
-.input-field{
+.input-field {
     border-color: rgb(92, 132, 241);
 }
-.input-field:focus{
+
+.input-field:focus {
     color: rgb(92, 132, 241);
-    border-color: rgb(92, 132, 241);       
+    border-color: rgb(92, 132, 241);
 }
-.input-field::placeholder,.details::placeholder{
+
+.input-field::placeholder, .details::placeholder {
     color: rgb(92, 132, 241);
 }
 
-.details{
+.details {
     resize: none;
-    color: rgb(92, 132, 241);    
-    border-color: rgb(92, 132, 241);   
+    color: rgb(92, 132, 241);
+    border-color: rgb(92, 132, 241);
     padding: 10px;
-    border-radius: 4px; 
+    border-radius: 4px;
+    width: 100%;
 }
-.details:focus{
+
+.details:focus {
     box-shadow: 0 0 4px 4px #BFDEFF;
 }
 
-.button-icon{
+.button-icon {
     width: 20px;
+}
+
+.pointer {
+    cursor: pointer;
 }
