@@ -13,7 +13,7 @@ body {
     text-align: center;
     margin: 10px 0;
     color: rgb(92, 132, 241);
-    /* background-color: rgb(189, 202, 236); */
+    /* background-color: rgb(224, 227, 233); */
 }
 
 .main-logo {
@@ -73,4 +73,8 @@ body {
 
 .pointer {
     cursor: pointer;
+}
+
+.card:hover{
+    background-color: rgb(224, 226, 228);
 }
